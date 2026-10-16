@@ -1,0 +1,115 @@
+{
+ "ot_disease": {
+  "disease": {
+   "id": "EFO_X",
+   "name": "Test disease",
+   "associatedTargets": {
+    "count": 2,
+    "rows": [
+     {
+      "score": 0.9,
+      "target": {
+       "id": "ENSG1",
+       "approvedSymbol": "AAA1",
+       "approvedName": "a",
+       "proteinIds": [
+        {
+         "id": "P00001",
+         "source": "uniprot_swissprot"
+        }
+       ],
+       "tractability": [
+        {
+         "label": "Approved Drug",
+         "modality": "SM",
+         "value": true
+        }
+       ]
+      },
+      "datatypeScores": [
+       {
+        "id": "genetic_association",
+        "score": 0.8
+       },
+       {
+        "id": "literature",
+        "score": 0.4
+       },
+       {
+        "id": "known_drug",
+        "score": 0.9
+       }
+      ]
+     },
+     {
+      "score": 0.5,
+      "target": {
+       "id": "ENSG2",
+       "approvedSymbol": "BBB2",
+       "approvedName": "b",
+       "proteinIds": [],
+       "tractability": []
+      },
+      "datatypeScores": [
+       {
+        "id": "rna_expression",
+        "score": 0.2
+       }
+      ]
+     }
+    ]
+   }
+  }
+ },
+ "chembl": {
+  "target": {
+   "targets": [
+    {
+     "target_chembl_id": "CHEMBL1",
+     "target_type": "SINGLE PROTEIN",
+     "organism": "Homo sapiens"
+    }
+   ]
+  },
+  "activity": {
+   "page_meta": {
+    "total_count": 3,
+    "next": null
+   },
+   "activities": [
+    {
+     "molecule_chembl_id": "CHEMBLm1"
+    },
+    {
+     "molecule_chembl_id": "CHEMBLm2"
+    },
+    {
+     "molecule_chembl_id": "CHEMBLm1"
+    }
+   ]
+  },
+  "mechanism": {
+   "mechanisms": [
+    {
+     "molecule_chembl_id": "CHEMBLm1"
+    }
+   ]
+  },
+  "molecule": {
+   "molecules": [
+    {
+     "molecule_chembl_id": "CHEMBLm1",
+     "max_phase": "4.0",
+     "pref_name": "DRUGX"
+    }
+   ]
+  },
+  "status": {
+   "chembl_db_version": "ChEMBL_TEST"
+  }
+ },
+ "pubmed": {
+  "AAA1": 100,
+  "BBB2": 3
+ }
+}

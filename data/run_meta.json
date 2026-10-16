@@ -1,0 +1,86 @@
+{
+  "date": "2026-10-16",
+  "disease": "ulcerative colitis",
+  "efo": "MONDO_0005101",
+  "open_targets": {
+    "apiVersion": {
+      "x": "26",
+      "y": "9",
+      "z": "0"
+    },
+    "dataVersion": {
+      "year": "26",
+      "month": "09"
+    }
+  },
+  "chembl": {
+    "activities": 24527044,
+    "chembl_db_version": "ChEMBL_37",
+    "chembl_release_date": "2026-05-01",
+    "compound_records": 3824604,
+    "disinct_compounds": 2921148,
+    "publications": 101100,
+    "status": "UP",
+    "targets": 18552
+  },
+  "pool": 200,
+  "pubmed_n": 30,
+  "weights": {
+    "main": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "assoc_heavy": [
+      0.6,
+      0.2,
+      0.2
+    ],
+    "ligand_heavy": [
+      0.2,
+      0.2,
+      0.6
+    ]
+  },
+  "sensitivity": {
+    "assoc_heavy": {
+      "top_k_overlap": 7,
+      "k": 10,
+      "spearman": 0.9780139503487587,
+      "entered": [
+        "ALOX5",
+        "PTGS1",
+        "TNF"
+      ],
+      "left": [
+        "CXCR2",
+        "ESR1",
+        "S1PR1"
+      ]
+    },
+    "ligand_heavy": {
+      "top_k_overlap": 8,
+      "k": 10,
+      "spearman": 0.9861981549538741,
+      "entered": [
+        "ALOX5",
+        "RORC"
+      ],
+      "left": [
+        "CXCR2",
+        "IL23R"
+      ]
+    }
+  },
+  "under_studied": [
+    "NR3C1",
+    "ALOX5",
+    "PTGS1",
+    "FGFR3",
+    "PRKCB"
+  ],
+  "graph": {
+    "nodes": 207,
+    "edges": 437
+  }
+}
